@@ -130,3 +130,7 @@ Route::get('/', function () {
     
 });
 
+Route::get('/', function () {
+    return view('product');
+})->name('product');
+
