@@ -1,4 +1,27 @@
 .container-fluid {
-    height: 10px;
+    height: 20px;
     background-color: rgb(2, 130, 249);
 }
+
+header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+ul {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 0;
+}
+
+.col-8, .header-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+

@@ -126,11 +126,27 @@ Route::get('/', function () {
         ]
     ];
 
+    $headerLinks = [
+        'CHARACTERS',
+        'COMICS',
+        'MOVIES',
+        'TV',
+        'GAMES',
+        'COLLECTABLES',
+        'VIDEOS',
+        'FANS',
+        'NEWS',
+        'SHOP'
+    ];
+
     return view('comics', [
         'comics' => $comics
+    ], [
+        'headerLinks' => $headerLinks
     ]);
 
 })->name('home');
+
 Route::get('/movies', function () {
     return view('movies');
 })->name('movies');

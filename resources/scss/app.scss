@@ -2,3 +2,12 @@
 @import './partials/_header';
 @import './partials/_main';
 @import './partials/_footer';
+
+ul {
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+    color: currentColor;
+}
