@@ -1,3 +1,10 @@
+@extends('layouts.app')
+
+@section('title')
+    Home
+@endsection
+
+@section('main-content')
 <section class="app-main">
     <div class="container">
         <div class="row">
@@ -12,3 +19,4 @@
             </div>
         </div>
 </section>
+@endsection

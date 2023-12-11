@@ -126,11 +126,14 @@ Route::get('/', function () {
         ]
     ];
 
-    return view('layouts.dc-comics', [
+    return view('comics', [
         'comics' => $comics
     ]);
 
-})->name('home');;
+})->name('home');
+Route::get('/movies', function () {
+    return view('movies');
+})->name('movies');
 
 Route::get('/product', function () {
     return view('product');
