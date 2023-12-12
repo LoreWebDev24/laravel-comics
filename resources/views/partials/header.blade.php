@@ -5,7 +5,7 @@
    <div class="container header-container">
     <div class="row">
         <div class="col-2">
-            {{-- <img src="{{ Vite::asset('public/img/dc-logo') }}" alt=""> --}}
+            <img src="/img/dc-logo.png" alt="logo">
         </div>
         <div class="col-8">
             <ul>
@@ -17,7 +17,7 @@
             </ul>
         </div>
         <div class="col-2">
-
+            <input type="search" name="" id="">
         </div>
     </div>
    </div>

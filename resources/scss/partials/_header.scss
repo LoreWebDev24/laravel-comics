@@ -1,27 +1,44 @@
-.container-fluid {
-    height: 20px;
-    background-color: rgb(2, 130, 249);
+.page-header {
+    .container-fluid {
+        height: 20px;
+        background-color: rgb(2, 130, 249);
+    }
+
+    header {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    input {
+        border: none;
+        border-bottom: 1px solid blue;
+    }
+
+    ul {
+        display: flex;
+        gap: 20px;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 0;
+    }
+
+    .col-8, .header-container {
+        padding: 20px;
+    }
+
+    .col-2 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .col-8 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
 }
 
-header {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
-
-ul {
-    display: flex;
-    gap: 20px;
-    justify-content: center;
-    align-items: center;
-    margin-bottom: 0;
-}
-
-.col-8, .header-container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 20px;
-}
 
